@@ -7,6 +7,8 @@ import Mainnaviagation from './shared/Navigation/Mainnaviagation';
 // without switch it will go untill matching end
 /// with switch if it finds same it will stop
 
+
+// here you add mainnavigation instead of mainheader because mainheader is olny for style it do not contain anything
 function App() {
   return <Router>
     <Mainnaviagation/>
