@@ -4,7 +4,7 @@ import Users from './user/pages/Users';
 import Newplace from './places/pages/Newplace';
 
 // without switch it will go untill matching end
-/// with switch if it finds exact it will stop
+/// with switch if it finds same it will stop
 
 function App() {
   return <Router>

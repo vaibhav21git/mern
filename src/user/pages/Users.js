@@ -1,8 +1,14 @@
 import React from 'react'
 
+import Userlist from '../components/Userlist'
+
 function Users() {
+
+  const USERS = [{id : 'u1' , name : "vaibhav sachdeva", image :"https://images.pexels.com/photos/974266/pexels-photo-974266.jpeg?auto=compress&cs=tinysrgb&w=600" , places : 3 }];
+
+
   return (
-     <h2> User Works</h2>
+     <Userlist items  = {USERS}/>
   )
 }
 
