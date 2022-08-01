@@ -12,7 +12,7 @@ function Userlist(props) {
             </div>)
     }
 
-    return <ul>
+    return <ul className='users-list'>
         {props.items.map((user) =>
             <Useritem
                 image={user.image}
